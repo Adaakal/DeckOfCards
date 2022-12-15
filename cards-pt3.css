@@ -1,0 +1,53 @@
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#btn-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn {
+    height: 40px;
+    width: 180px;
+    position: absolute;
+    /* display: flex;
+    flex-direction: row; */
+    grid-column: 1;
+    grid-row: 1;
+    margin: 10px;
+    background-color:cadetblue;
+    
+}
+
+.btn:hover {
+    background-color: darkcyan;
+}
+
+#card-container {
+    display: block;   
+    margin: auto;
+    align-content: space-around;
+    padding: 5rem;
+    /* flex-wrap: wrap; */
+    
+   
+}
+img {
+    align-self: center;
+    width: 15rem;
+   
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: Copse, Helvetica;
+    font-size: 2rem;
+}
